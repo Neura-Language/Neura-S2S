@@ -1,0 +1,21 @@
+# 编译产物
+build/
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# 测试目录
+tests/
+
+# 敏感文件
+*.pem
+*.key
+*.keystore
+config.ini
+
+# IDE 缓存
+.vscode/
+.idea/
+.DS_Store
